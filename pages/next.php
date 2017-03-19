@@ -9,10 +9,15 @@
                     </div>
                     <!-- /.col-lg-12 -->
 			<form role="form" name="form1" action="finish.php" method="post">
-
-				<img class="img-responsive" width="50%" src="../images/lot1.jpg"></img>
-
-				<button type="submit" class="btn btn-default">Done</button>
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6">
+					<img class="img-responsive" width="100%" src="../images/car6.jpg"></img>
+				</div>
+				<div class="col-lg-3"></div>
+				
+				<div class="col-lg-12">
+					<button type="submit" class="btn btn-default">Done</button>
+				</div>
 			</form>
                 </div>
                 <!-- /.row -->
