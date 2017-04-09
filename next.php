@@ -1,4 +1,4 @@
-<?php include('../include/header.php'); ?>
+<?php include('include/header.php'); ?>
 
         <!-- Page Content -->
         <div id="page-wrapper">
@@ -11,7 +11,7 @@
 			<form role="form" name="form1" action="finish.php" method="post">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<img class="img-responsive" width="100%" src="../images/lot2.jpg"></img>
+					<img class="img-responsive" width="100%" src="images/lot2.jpg"></img>
 				</div>
 				<div class="col-lg-3"></div>
 				
@@ -27,4 +27,4 @@
         <!-- /#page-wrapper -->
 
     
-<?php include('../include/footer.php'); ?>
+<?php include('include/footer.php'); ?>
