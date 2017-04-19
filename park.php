@@ -45,6 +45,6 @@ $statement->execute();
     $statement->execute();
 */
 
-   header("Location:parkbin.php");
+   header("Location:parkbin.php?lot=$lotno");
 }
 ?>

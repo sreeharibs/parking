@@ -24,4 +24,4 @@ $file = fopen("out.txt","w");
 fwrite($file,$out);
 fclose($file);
 
-header("Location:next.php?lot=$lotno");
+header("Location:next.php?lot=$_GET['lot']");
