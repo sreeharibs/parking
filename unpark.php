@@ -10,6 +10,6 @@
      $statement->bind_param('i',$_POST['lotno']);
 $statement->execute();
 
-   header("Location:index.php");
+   header("Location:unparkbin.php");
 }
 ?>

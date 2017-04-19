@@ -44,6 +44,7 @@ $statement->execute();
     $statement->bind_param('ss', $_POST['vehicleno'],$_POST['email']);
     $statement->execute();
 */
-   header("Location:next.php?lot=$lotno");
+
+   header("Location:parkbin.php");
 }
 ?>
